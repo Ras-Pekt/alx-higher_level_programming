@@ -8,4 +8,4 @@ This directory contains shell and python scripts that do the following:
 - [5-print_string.py](5-print_string.py) - print 3 times a string stored in the variable str, followed by its first 9 characters
 - [6-concat.py](6-concat.py) - print Welcome to Holberton School!
 - [7-edges.py](7-edges.py) - copy cut and paste
-- 
+- [8-concat_edges.py](8-concat_edges.py) - print object-oriented programming with Python, followed by a new line
