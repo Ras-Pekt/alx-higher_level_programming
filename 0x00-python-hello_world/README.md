@@ -12,3 +12,4 @@ This directory contains shell and python scripts that do the following:
 - [9-easter_egg.py](9-easter_egg.py) - a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line
 - [10-check_cycle.c](10-check_cycle.c) - a function in C that checks if a singly linked list has a cycle in it
 - [100-write.py](100-write.py) - a Python script that prints using write from the sys module to stderr
+- [101-compile](101-compile) - a script that compiles a Python script file
