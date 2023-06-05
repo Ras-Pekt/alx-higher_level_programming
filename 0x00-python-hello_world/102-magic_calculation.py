@@ -1,4 +1,4 @@
 #!/usr/bin/python3
-def _bytecode(a, b):
+def magic_calculation(a, b):
     result = a ** b
     return result + 98
