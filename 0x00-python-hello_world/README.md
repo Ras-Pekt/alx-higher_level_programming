@@ -9,3 +9,4 @@ This directory contains shell and python scripts that do the following:
 - [6-concat.py](6-concat.py) - print Welcome to Holberton School!
 - [7-edges.py](7-edges.py) - copy cut and paste
 - [8-concat_edges.py](8-concat_edges.py) - print object-oriented programming with Python, followed by a new line
+- [9-easter_egg.py](9-easter_egg.py) - a Python script that prints “The Zen of Python”, by TimPeters, followed by a new line
