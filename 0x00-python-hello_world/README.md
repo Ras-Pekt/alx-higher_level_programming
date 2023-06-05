@@ -13,3 +13,4 @@ This directory contains shell and python scripts that do the following:
 - [10-check_cycle.c](10-check_cycle.c) - a function in C that checks if a singly linked list has a cycle in it
 - [100-write.py](100-write.py) - a Python script that prints using write from the sys module to stderr
 - [101-compile](101-compile) - a script that compiles a Python script file
+- [102-magic_calculation.py](102-magic_calculation.py) - Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode provided
