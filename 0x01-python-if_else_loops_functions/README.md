@@ -9,3 +9,4 @@ This directory contains python programs/scripts that do the following:
 - [6-print_comb3.py](6-print_comb3.py) - prints all possible different combinations of two digits
 - [7-islower.py](7-islower.py) - checks for lowercase character
 - [8-uppercase.py](8-uppercase.py) - prints a string in uppercase followed by a new line
+- [9-print_last_digit.py](9-print_last_digit.py) - prints the last digit of a number
