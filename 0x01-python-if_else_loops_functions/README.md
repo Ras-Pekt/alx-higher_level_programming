@@ -7,4 +7,4 @@ This directory contains python programs/scripts that do the following:
 - [4-print_hexa.py](4-print_hexa.py) - prints all numbers from 0 to 98 in decimal and in hexadecimal
 - [5-print_comb2.py](5-print_comb2.py) - prints numbers from 0 to 99 separated by , followed by a space and printed in ascending order, with two digits
 - [6-print_comb3.py](6-print_comb3.py) - prints all possible different combinations of two digits
-- 
+- [7-islower.py](7-islower.py) - checks for lowercase character
