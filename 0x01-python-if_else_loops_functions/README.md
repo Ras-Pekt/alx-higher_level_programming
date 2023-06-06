@@ -11,3 +11,5 @@ This directory contains python programs/scripts that do the following:
 - [8-uppercase.py](8-uppercase.py) - prints a string in uppercase followed by a new line
 - [9-print_last_digit.py](9-print_last_digit.py) - prints the last digit of a number
 - [10-add.py](10-add.py) - adds two integers and returns the result
+- [11-pow.py](11-pow.py) - computes a to the power of b and return the value
+- [12-fizzbuzz.py](12-fizzbuzz.py) - prints the numbers from 1 to 100 separated by a space. For multiples of three print Fizz is printed and for multiples of five print Buzz is printed, and for numbers which are multiples of both three and five FizzBuzz is printed
