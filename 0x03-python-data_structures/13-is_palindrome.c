@@ -24,12 +24,12 @@ int is_palindrome(listint_t **head)
 		fast = fast->next->next; /*moves fast two steps*/
 		temp = slow; /*sets temp to slow*/
 		slow = slow->next; /*moves slow one step*/
-		temp->next = rev; /*reverses temp's pointer (which is slow's pointer)*/
+		temp->next = rev; /*reverses temp's pointer*/
 		rev = temp; /*sets rev_node as the new temp*/
 	}
 	/*
 	* fast moves by two steps i.e 0, 2, 4, 6....
-	* fast moves by one step i.e 0, 1, 2, 3....
+	* slow moves by one step i.e 0, 1, 2, 3....
 	* if list is odd numbered, fast will not have reached the end and
 	* slow will not have reached the midpoint, hence the need for this step
 	*/
@@ -37,7 +37,7 @@ int is_palindrome(listint_t **head)
 		slow = slow->next;
 	/*
 	* at this point, slow is at the beginning of the 2nd half of the list
-	* rev is at the beggining of the first, now reversed, half of the list
+	* rev is at the beginning of the first, now reversed, half of the list
 	*/
 	while (slow && rev)
 	{
