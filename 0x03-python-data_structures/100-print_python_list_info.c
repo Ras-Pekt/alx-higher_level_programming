@@ -17,7 +17,6 @@ void print_python_list_info(PyObject *p)
 	{
 		item = PyList_GET_ITEM(p, idx);
 		printf("Element %ld: %s\n", idx, Py_TYPE(item)->tp_name);
-		printf("Address of element %ld: %p\n", idx, (void *)item);
 		idx++;
 	}
 }
