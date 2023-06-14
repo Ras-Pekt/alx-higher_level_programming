@@ -8,4 +8,5 @@ This directory contains python programs/scripts that do the following:
 - [5-number_keys.py](5-number_keys.py) - returns the number of keys in a dictionary
 - [6-print_sorted_dictionary.py](6-print_sorted_dictionary.py) - prints a dictionary by ordered keys
 - [7-update_dictionary.py](7-update_dictionary.py) - replaces or adds key/value in a dictionary
+- [8-simple_delete.py](8-simple_delete.py) - deletes a key in a dictionary
 - 
