@@ -68,3 +68,16 @@ This directory contains python programs/scripts that do the following:
 	- `repr()` should return a string representation of the rectangle to be able to recreate a new instance by using `eval()`
     - Print the message `Bye rectangle...` (`...` being 3 dots not ellipsis)` when an instance of Rectangle is deleted
     - Static method `def bigger_or_equal(rect_1, rect_2):` that returns the biggest rectangle based on the area
+- [9-rectangle.py](9-rectangle.py) - defines a rectangle by:
+	- Private instance attribute: `width`
+	- Private instance attribute: `height`
+    - Public class attribute `number_of_instances`
+    - Public class attribute `print_symbol`
+	- Instantiation with optional width and height: `def __init__(self, width=0, height=0)`
+	- Public instance method: `def area(self):` that returns the rectangle area
+	- Public instance method: `def perimeter(self):` that returns the rectangle perimeter
+	- `print()` and `str()` should print the rectangle with the character `#`
+	- `repr()` should return a string representation of the rectangle to be able to recreate a new instance by using `eval()`
+    - Print the message `Bye rectangle...` (`...` being 3 dots not ellipsis)` when an instance of Rectangle is deleted
+    - Static method `def bigger_or_equal(rect_1, rect_2):` that returns the biggest rectangle based on the area
+    - Class method `def square(cls, size=0):` that returns a new Rectangle instance with `width == height == size`

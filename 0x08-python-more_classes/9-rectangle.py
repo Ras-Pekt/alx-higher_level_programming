@@ -72,6 +72,11 @@ class Rectangle:
         else:
             return rect_2
 
+    @classmethod
+    def square(cls, size=0):
+        """returns a new rectangle instance"""
+        return Rectangle(size, size)
+
     def area(self):
         """return area of rectangle"""
         return self.__width * self.__height
