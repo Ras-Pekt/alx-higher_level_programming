@@ -83,6 +83,6 @@ class Rectangle:
         """returns a formal string of the object"""
         return "Rectangle({}, {})".format(self.width, self.height)
 
-    def __dell__(self):
+    def __del__(self):
         """print message at deletion"""
         print("Bye rectangle...")
