@@ -4,6 +4,9 @@
 
 class Rectangle:
     """Define a rectangle with width and height attributes"""
+    number_of_instances = 0
+    print_symbol = "#"
+
     def __init__(self, width=0, height=0):
         """initialize new rectangle
         Args:
@@ -12,6 +15,8 @@ class Rectangle:
         """
         self.width = width
         self.height = height
+
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -73,7 +78,7 @@ class Rectangle:
 
         for i in range(self.__height):
             for j in range(self.__width):
-                rectangle += "#"
+                rectangle += str(self.print_symbol)
             if i != self.__height - 1:
                 rectangle += "\n"
 
@@ -85,4 +90,5 @@ class Rectangle:
 
     def __del__(self):
         """print message at deletion"""
+        Rectangle.number_of_instances -= 1
         print("Bye rectangle...")
