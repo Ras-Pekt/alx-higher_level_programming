@@ -81,4 +81,4 @@ class Rectangle:
 
     def __repr__(self):
         """returns a formal string of the object"""
-        return "Rectangle ({:d}, {:d})".format(self.__width, self.__height)
+        return "Rectangle ({:d}, {:d})".format(self.width, self.height)
