@@ -5,4 +5,9 @@ This directory contains python programs/scripts that do the following:
 	- Private instance attribute: `width`
 	- Private instance attribute: `height`
 	- Instantiation with optional width and height: `def __init__(self, width=0, height=0)`
-- 
+- [2-rectangle.py](2-rectangle.py) - defines a rectangle by:
+	- Private instance attribute: `width`
+	- Private instance attribute: `height`
+	- Instantiation with optional width and height: `def __init__(self, width=0, height=0)`
+	- Public instance method: `def area(self):` that returns the rectangle area
+	- Public instance method: `def perimeter(self):` that returns the rectangle perimeter
