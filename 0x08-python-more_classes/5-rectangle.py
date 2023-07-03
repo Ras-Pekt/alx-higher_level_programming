@@ -66,9 +66,8 @@ class Rectangle:
         return ((self.__width + self.__height) * 2)
 
     def __str__(self):
-        """returns string representation of object"""
+        """returns an informal string of the object"""
         rectangle = ""
-
         if self.__width == 0 or self.__height == 0:
             return rectangle
 
@@ -79,3 +78,11 @@ class Rectangle:
                 rectangle += "\n"
 
         return rectangle
+
+    def __repr__(self):
+        """returns a formal string of the object"""
+        return "Rectangle({}, {})".format(self.width, self.height)
+
+    def __dell__(self):
+        """print message at deletion"""
+        print("Bye rectangle...")
