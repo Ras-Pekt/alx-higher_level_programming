@@ -1,0 +1,59 @@
+say_my_name module tests
+========================
+
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+
+
+string input tests
+==================
+
+>>> say_my_name("Eliot", "Alderson")
+My name is Eliot Alderson
+
+>>> say_my_name("John", "Wick")
+My name is John Wick
+
+>>> say_my_name("Mr_Robot")
+My name is Mr_Robot 
+
+>>> say_my_name(12, "White")
+Traceback (most recent call last):
+        ...
+TypeError: first_name must be a string
+
+
+edge cases tests
+================
+
+>>> say_my_name("H   G   ", "Wells   ")
+My name is H   G    Wells   
+
+>>> say_my_name("", "")
+My name is  
+
+>>> say_my_name("007")
+My name is 007 
+
+>>> say_my_name("Altered", None)
+Traceback (most recent call last):
+        ...
+TypeError: last_name must be a string
+
+>>> say_my_name(None)
+Traceback (most recent call last):
+        ...
+TypeError: first_name must be a string
+
+>>> say_my_name(2 , 3)
+Traceback (most recent call last):
+        ...
+TypeError: first_name must be a string
+
+>>> say_my_name(John, Wick)
+Traceback (most recent call last):
+        ...
+NameError: name 'John' is not defined
+
+>>> say_my_name("A Tribe Called Quest")
+My name is A Tribe Called Quest 
