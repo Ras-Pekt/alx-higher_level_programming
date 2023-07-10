@@ -20,3 +20,7 @@ This directory contains python programs/scripts that do the following:
 - [10-square.py](10-square.py) -  a class `Square` that inherits from `Rectangle`
 	- Instantiation with size: `def __init__(self, size):`
 	- the `area()` method must be implemented
+- [11-square.py](11-square.py) - a class `Square` that inherits from `Rectangle`
+	- Instantiation with `size`: `def __init__(self, size):`
+	- the `area()` method must be implemented
+	- `print()` should print, and `str()` should return, the square description: `[Square] <width>/<height>`
