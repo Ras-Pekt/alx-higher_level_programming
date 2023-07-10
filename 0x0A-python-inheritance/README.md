@@ -17,3 +17,6 @@ This directory contains python programs/scripts that do the following:
 	- Instantiation with `width` and `height`: `def __init__(self, width, height):`
 	- the `area()` method must be implemented
 	- `print()` should print, and `str()` should return, the following rectangle description: `[Rectangle] <width>/<height>`
+- [10-square.py](10-square.py) -  a class `Square` that inherits from `Rectangle`
+	- Instantiation with size: `def __init__(self, size):`
+	- the `area()` method must be implemented
