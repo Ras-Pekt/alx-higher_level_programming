@@ -8,4 +8,8 @@ This directory contains python programs/scripts that do the following:
 - [5-base_geometry.py](5-base_geometry.py) - an empty class
 - [6-base_geometry.py](6-base_geometry.py) - a class BaseGeometry:
 	- Public instance method: `def area(self):` that raises an Exception with the message `area() is not implemented`
-- 
+- [7-base_geometry.py](7-base_geometry.py) - a class BaseGeometry:
+	- Public instance method: `def area(self):` that raises an Exception with the message `area() is not implemented`
+	- Public instance method: `def integer_validator(self, name, value):` that validates `value`
+- [8-rectangle.py](8-rectangle.py) - a class Rectangle that inherits from `BaseGeometry`:
+	- Instantiation with `width` and `height`: `def __init__(self, width, height)`
