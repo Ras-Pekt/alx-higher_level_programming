@@ -17,3 +17,8 @@ This directory contains python programs/scripts that do the following:
 	- Public instance attributes
 	- Instantiation with `first_name`, `last_name` and `age`: `def __init__(self, first_name, last_name, age):`
 	- Public method `def to_json(self, attrs=None):` that retrieves a dictionary representation of a `Student` instance
+- [11-student.py](11-student.py) - a class Student that defines a student by:
+	- Public instance attributes
+	- Instantiation with `first_name`, `last_name` and `age`: `def __init__(self, first_name, last_name, age):`
+	- Public method `def to_json(self, attrs=None):` that retrieves a dictionary representation of a `Student` instance
+	- Public method `def reload_from_json(self, json):` that replaces all attributes of the `Student` instance
