@@ -1,4 +1,4 @@
-#!/usr/bin/pyhton3
+#!/usr/bin/python3
 """append a string to a file and returns count of characters appended"""
 
 
