@@ -9,3 +9,7 @@ This directory contains python programs/scripts that do the following:
 - [6-load_from_json_file.py](6-load_from_json_file.py) - creates an Object from a “JSON file”
 - [7-add_item.py](7-add_item.py) - adds all arguments to a Python list, and then save them to a file
 - [8-class_to_json.py](8-class_to_json.py) - returns the dictionary description with simple data structure for JSON serialization of an object
+- [9-student.py](9-student.py) - a class Student that defines a student by:
+	- Public instance attributes
+	- Instantiation with `first_name`, `last_name` and `age`: `def __init__(self, first_name, last_name, age):`
+	- Public method `def to_json(self):` that retrieves a dictionary representation of a `Student` instance
