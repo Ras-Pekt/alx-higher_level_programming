@@ -101,3 +101,7 @@ class Rectangle(Base):
                     super().__init__(value)
                 else:
                     setattr(self, key, value)
+
+    def to_dictionary(self):
+        """returns dict rep of rectangle object"""
+        return {'x': self.x, 'y': self.y, 'id': self.id, 'height': self.height, 'width': self.width}

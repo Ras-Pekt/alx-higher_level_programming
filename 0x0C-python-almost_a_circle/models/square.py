@@ -37,3 +37,7 @@ class Square(Rectangle):
                     super().update(id=value)
                 else:
                     setattr(self, key, value)
+
+    def to_dictionary(self):
+        """returns dict rep of square object"""
+        return {'id': self.id, 'x': self.x, 'size': self.width, 'y': self.y}
