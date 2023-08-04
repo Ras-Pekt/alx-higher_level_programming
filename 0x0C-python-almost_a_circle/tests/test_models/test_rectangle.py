@@ -72,7 +72,7 @@ class TestRectangle(unittest.TestCase):
     def test_to_dictionary(self):
         r = Rectangle(5, 10, 2, 3, 1)
         expected_dict = {'x': 2, 'y': 3, 'id': 1, 'height': 10, 'width': 5}
-        self.assertEqual(r.to_dictionary(), expected_dict)    
+        self.assertEqual(r.to_dictionary(), expected_dict)
 
     def test_set_width_type_error(self):
         with self.assertRaises(TypeError):
