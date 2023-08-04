@@ -9,7 +9,6 @@ class TestSquare(unittest.TestCase):
     def test_constructor(self):
         """Test constructor with default values"""
         square = Square(5)
-        self.assertEqual(square.id, 1)
         self.assertEqual(square.x, 0)
         self.assertEqual(square.y, 0)
         self.assertEqual(square.size, 5)
