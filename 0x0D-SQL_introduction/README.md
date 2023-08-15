@@ -4,3 +4,6 @@ This directory contain SQL that perfrom the following actions:
 - [1-create_database_if_missing.sql](1-create_database_if_missing.sql) - creates the database `hbtn_0c_0` in your MySQL server.
 - [2-remove_database.sql](2-remove_database.sql) - deletes the database `hbtn_0c_0` in your MySQL server
 - [3-list_tables.sql](3-list_tables.sql) - lists all the tables of a database in your MySQL server
+- [4-first_table.sql](4-first_table.sql) - creates a table called `first_table` in the current database in your MySQL server
+- [5-full_table.sql](5-full_table.sql) - prints the full description of the table `first_table` from the database `hbtn_0c_0` in your MySQL server
+- [6-list_values.sql](6-list_values.sql) - lists all rows of the table `first_table` from the database `hbtn_0c_0` in your MySQL server
