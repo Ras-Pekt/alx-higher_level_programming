@@ -7,4 +7,5 @@ This directory contain SQL that perfrom the following actions:
 - [4-first_table.sql](4-first_table.sql) - creates a table called `first_table` in the current database in your MySQL server
 - [5-full_table.sql](5-full_table.sql) - prints the full description of the table `first_table` from the database `hbtn_0c_0` in your MySQL server
 - [6-list_values.sql](6-list_values.sql) - lists all rows of the table `first_table` from the database `hbtn_0c_0` in your MySQL server
-- [7-insert_value.sql](7-insert_value.sql) - inserts a new row in the table first_table (database hbtn_0c_0) in your MySQL server
+- [7-insert_value.sql](7-insert_value.sql) - inserts a new row in the table `first_table` (database `hbtn_0c_0`) in your MySQL server
+- [8-count_89.sql](8-count_89.sql) - 
