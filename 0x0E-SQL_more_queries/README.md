@@ -8,3 +8,4 @@ This directory contains  SQL scripts that perfrom the following actions:
 - [5-unique_id.sql](5-unique_id.sql) - creates the table unique_id on your MySQL server
 - [6-states.sql](6-states.sql) - creates the database hbtn_0d_usa and the table states (in the database hbtn_0d_usa) on your MySQL server
 - [7-cities.sql](7-cities.sql) - creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa) on your MySQL server
+- [8-cities_of_california_subquery.sql](8-cities_of_california_subquery.sql) - lists all the cities of California that can be found in the database hbtn_0d_usa
