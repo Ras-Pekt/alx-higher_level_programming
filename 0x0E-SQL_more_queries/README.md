@@ -10,3 +10,4 @@ This directory contains  SQL scripts that perfrom the following actions:
 - [7-cities.sql](7-cities.sql) - creates the database hbtn_0d_usa and the table cities (in the database hbtn_0d_usa) on your MySQL server
 - [8-cities_of_california_subquery.sql](8-cities_of_california_subquery.sql) - lists all the cities of California that can be found in the database hbtn_0d_usa
 - [9-cities_by_state_join.sql](9-cities_by_state_join.sql) -  lists all cities contained in the database hbtn_0d_usa
+- [10-genre_id_by_show.sql](10-genre_id_by_show.sql) - lists all shows contained in hbtn_0d_tvshows that have at least one genre linked
