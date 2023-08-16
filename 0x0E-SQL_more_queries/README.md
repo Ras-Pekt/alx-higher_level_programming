@@ -16,3 +16,4 @@ This directory contains  SQL scripts that perfrom the following actions:
 - [13-count_shows_by_genre.sql](13-count_shows_by_genre.sql) - lists all genres from hbtn_0d_tvshows and displays the number of shows linked to each
 - [14-my_genres.sql](14-my_genres.sql) - uses the hbtn_0d_tvshows database to lists all genres of the show Dexter
 - [15-comedy_only.sql](15-comedy_only.sql) - lists all Comedy shows in the database hbtn_0d_tvshows
+- [16-shows_by_genre.sql](16-shows_by_genre.sql) - lists all shows, and all genres linked to that show, from the database hbtn_0d_tvshows
