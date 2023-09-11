@@ -3,7 +3,7 @@
 const cmdArray = process.argv.slice(2);
 const argArray = [];
 
-if (cmdArray.length < 4) {
+if (cmdArray.length < 2) {
   console.log(0);
 } else {
   for (let i = 0; i < cmdArray.length; i++) {
