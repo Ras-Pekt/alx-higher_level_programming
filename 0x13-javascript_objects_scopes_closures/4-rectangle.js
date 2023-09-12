@@ -17,20 +17,19 @@ class Rectangle {
       }
       console.log(row);
       */
-      const text = 'X';
-      console.log(text.repeat(this.width));
+      console.log('X'.repeat(this.width));
     }
   }
 
   rotate () {
-    const tempWidth = this.height;
-    this.height = this.width;
-    this.width = tempWidth;
+    const tempWidth = this.width;
+    this.width = this.height;
+    this.height = tempWidth;
   }
 
   double () {
-    this.height = 2 * this.height;
-    this.width = 2 * this.width;
+    this.width *= 2;
+    this.height *= 2;
   }
 }
 
