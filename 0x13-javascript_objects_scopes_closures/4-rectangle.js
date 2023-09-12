@@ -17,7 +17,8 @@ class Rectangle {
       }
       console.log(row);
       */
-      console.log('X'.repeat(this.width));
+      const text = 'X';
+      console.log(text.repeat(this.width));
     }
   }
 
