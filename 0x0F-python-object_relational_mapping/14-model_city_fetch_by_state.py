@@ -25,4 +25,4 @@ if __name__ == "__main__":
         join(City, City.state_id == State.id).order_by(City.id).all()
 
     for state_name, city_id, city_name in citys:
-        print(f"{state_name}: ({city_id}): {city_name}")
+        print(f"{state_name}: ({city_id}) {city_name}")
