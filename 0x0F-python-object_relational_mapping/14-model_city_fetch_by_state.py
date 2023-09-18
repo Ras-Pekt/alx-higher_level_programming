@@ -2,10 +2,10 @@
 """
 a script that lists all State objects from the database hbtn_0e_6_usa
 """
-from model_state import Base, State
-from model_city import City
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+from model_state import Base, State
+from model_city import City
 import sys
 
 
@@ -21,8 +21,14 @@ if __name__ == "__main__":
 
     session = Session()
 
-    citys = session.query(State.name, City.id, City.name).\
-        join(City, City.state_id == State.id).order_by(City.id).all()
+    # citys = session.query(State.name, City.id, City.name).\
+    #     join(City, City.state_id == State.id).order_by(City.id).all()
 
-    for state_name, city_id, city_name in citys:
-        print(f"{state_name}: ({city_id}) {city_name}")
+    # for state_name, city_id, city_name in citys:
+    #     print(f"{state_name}: ({city_id}) {city_name}")
+
+    citys = session.query(State, City).\
+        filter(City.state_id == State.id).order_by(City.id).all()
+
+    for state, city in citys:
+        print(f"{state.name}: ({city.id}) {city.name}")
