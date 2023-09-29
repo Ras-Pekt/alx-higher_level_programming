@@ -7,7 +7,6 @@ displays the body of the response (decoded in utf-8).
 
 if __name__ == "__main__":
     from urllib.request import urlopen
-    from urllib import parse
     from urllib.error import HTTPError
     from sys import argv
 
