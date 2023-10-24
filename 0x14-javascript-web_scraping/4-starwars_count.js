@@ -14,20 +14,24 @@ request(url, (err, response, body) => {
   if (err) {
     console.error(err);
   } else {
-    const jsonBody = JSON.parse(body);
-    const results = jsonBody.results;
-    let count = 0;
+    try {
+      const jsonBody = JSON.parse(body);
+      const results = jsonBody.results;
+      let count = 0;
 
-    for (const result of results) {
-      const characters = result.characters;
-
-      for (const character of characters) {
-        if (character === 'https://swapi-api.alx-tools.com/api/people/18/') {
-          count++;
+      for (const result of results) {
+        const characters = result.characters;
+  
+        for (const character of characters) {
+          if (character === 'https://swapi-api.alx-tools.com/api/people/18/') {
+            count++;
+          }
         }
       }
+      console.log(count);
+    } catch (error) {
+      console.log(error);
     }
-    console.log(count);
   }
 }
 );
