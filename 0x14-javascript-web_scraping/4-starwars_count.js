@@ -14,14 +14,11 @@ request(url, (err, response, body) => {
   if (err) {
     console.error(err);
   } else {
-    const jsonBody = JSON.parse(body);
-    const results = jsonBody.results;
+    const results = JSON.parse(body).results;
     let count = 0;
 
     for (const result of results) {
-      const characters = result.characters;
-
-      for (const character of characters) {
+      for (const character of result.characters) {
         if (character === 'https://swapi-api.alx-tools.com/api/people/18/') {
           count++;
         }
